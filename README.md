@@ -53,7 +53,7 @@ kubectl get deployments
 🛎️ Create 404 Error Log Monitor in Datadog
 
 Search Query:
-@service:project4 @source:nginx @status:404
+service:project04 source:nginx " 404 "
 
 Alert condition:
 Alert when log count is above 10 over the last 5 minutes
