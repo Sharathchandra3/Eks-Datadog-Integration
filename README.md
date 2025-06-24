@@ -49,6 +49,7 @@ kubectl patch deployment project04-deployment --type merge --patch-file datadog-
 # Verify everything is running
 kubectl get pods
 kubectl get deployments
+
 🛎️ Create 404 Error Log Monitor in Datadog
 Search Query:
 
