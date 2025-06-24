@@ -51,11 +51,11 @@ kubectl get pods
 kubectl get deployments
 
 🛎️ Create 404 Error Log Monitor in Datadog
+
 Search Query:
-
 @service:project4 @source:nginx @status:404
-Alert condition:
 
+Alert condition:
 Alert when log count is above 10 over the last 5 minutes
 
 Notification Message:
@@ -71,5 +71,5 @@ Notification Message:
 
 Please check for broken links, missing routes, or misconfigured frontend paths.
 
-📧 Alert sent to: @sharathchandra377@gmail.com
-Make sure @sharathchandra377@gmail.com is a registered user in your Datadog account to receive alerts.
+📧 Alert sent to: @user@gmail.com
+Make sure @user@gmail.com is a registered user in your Datadog account to receive alerts.
