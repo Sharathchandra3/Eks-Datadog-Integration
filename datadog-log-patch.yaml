@@ -1,0 +1,5 @@
+spec:
+  template:
+    metadata:
+      annotations:
+        ad.datadoghq.com/project04.logs: '[{"source":"nginx","service":"project04"}]'
